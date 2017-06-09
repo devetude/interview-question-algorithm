@@ -32,14 +32,16 @@
 
 ### Q6. [트리(tree)]()에 대해서 설명하시오.
 
-### Q7. [트라이(trie)]()에 대해서 설명하시오.
+### Q7. [힙(heap)]()에 대해서 설명하시오.
 
-### Q8. [인접 행렬(adjacency matrix)]()에 대해서 설명하시오.
+### Q8. [트라이(trie)]()에 대해서 설명하시오.
 
-### Q9. [인접 리스트(adjacency list)]()에 대해서 설명하시오.
+### Q9. [인접 행렬(adjacency matrix)]()에 대해서 설명하시오.
 
-### Q10. [연관 배열(associative array)]()에 대해서 설명하시오.
+### Q10. [인접 리스트(adjacency list)]()에 대해서 설명하시오.
 
-### Q11. [연관 리스트(associative list)]()에 대해서 설명하시오.
+### Q11. [연관 배열(associative array)]()에 대해서 설명하시오.
+
+### Q12. [연관 리스트(associative list)]()에 대해서 설명하시오.
 
 ### Q12. [해시 테이블(hash table)]()에 대해서 설명하시오.
