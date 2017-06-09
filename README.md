@@ -23,3 +23,23 @@
 ![circularlinkedlist.png](https://github.com/devetude/Data-Structure-QnA/blob/master/images/circularlinkedlist.png)
 
 원형 연결 리스트(circular linked list) : 단순 연결 리스트에서 마지막 원소를 null이 나닌 첫 노드의 주소를 가리키게하면 원형 연결 리스트 자료구조가 됩니다. 이 방법은 이중 연결 리스트에도 마찬가지로 적용됩니다.
+
+### Q3. [스택(stack)]()에 대해서 설명하시오.
+
+### Q4. [큐(queue)]()에 대해서 설명하시오.
+
+### Q5. [덱(dequeue)]()에 대해서 설명하시오.
+
+### Q6. [트리(tree)]()에 대해서 설명하시오.
+
+### Q7. [트라이(trie)]()에 대해서 설명하시오.
+
+### Q8. [인접 행렬(adjacency matrix)]()에 대해서 설명하시오.
+
+### Q9. [인접 리스트(adjacency list)]()에 대해서 설명하시오.
+
+### Q10. [연관 배열(associative array)]()에 대해서 설명하시오.
+
+### Q11. [연관 리스트(associative list)]()에 대해서 설명하시오.
+
+### Q12. [해시 테이블(hash table)]()에 대해서 설명하시오.
