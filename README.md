@@ -12,8 +12,14 @@
 배열을 이용하여 리스트를 구현한 자료구조입니다. 배열의 특성상 데이터를 리스트의 처음이나 중간에 저장하면 이후의 데이터들이 한칸씩 뒤로 물러나야하며 삭제의 경우 삭제하는 데이터 이후 데이터들이 순차적으로 한칸씩 당겨져야하기 때문에 비효율적입니다. 하지만 단순히 첨자를 이용하여 데이터를 가져오는 경우에는 배열의 특징을 그대로 가지고 있기 때문에 매우 빠른 속도를 보여줍니다.
 
 ### Q2. 연결 리스트(linked list)에 대해서 설명하시오.
+![singlylinkedlist.png](https://github.com/devetude/Data-Structure-QnA/blob/master/images/singlylinkedlist.png)
+
 [단순 연결 리스트 (singly linked list)](https://gist.github.com/devetude/eaf18d184ce96f7828a7dc79538d6f24) : 단순 연결 리스트는 노드에 다음 노드의 주소를 가리키는 정보만 추가되어있는 가장 단순한 형태의 연결 리스트입니다. 가장 마지막 원소를 찾으려면 처음부터 리스트의 끝까지 탐색해야하기 때문에 시간복잡도가 O(n)입니다. 이 자료구조는 가장 첫번째 노드의 참조 주소를 잃어버릴 경우 데이터 전체를 못 쓰게되는 단점이 있습니다. 또한 다음 노드를 참조하는 주소 중 하나가 잘못되는 경우에도 리스트가 끊어져 뒤쪽 자료들을 유실할 수 있는 불안정적인 자료구조입니다.
 
+![doublylinkedlist.png](https://github.com/devetude/Data-Structure-QnA/blob/master/images/doublylinkedlist.png)
+
 [이중 연결 리스트 (doubly linked list)](https://gist.github.com/devetude/5a60367ec4e5f2314221f2407e7a3da6) : 다음 노드의 참조뿐만 아니라 이전 노드의 참조도 같이 가리키게한 리스트 자료구조입니다. 단순 연결 리스트와 다르게 뒤에서부터 탐색하는 것이 빠르며 특정 노드를 삭제하는데 훨씬 간단하게 구현할 수 있습니다. 또한 첫 노드와 마지막 노드 중 하나를 가지고 있다면 전체 리스트를 순회할 수 있기 때문에 끊어진 리스트를 복구하는게 가능합니다. 그러나 관리해야할 참조 주소가 2개로 삽입이나 정렬의 경우 작업량이 더 많고 소모되는 메모리의 양도 많습니다.
+
+![circularlinkedlist.png](https://github.com/devetude/Data-Structure-QnA/blob/master/images/circularlinkedlist.png)
 
 원형 연결 리스트(circular linked list) : 단순 연결 리스트에서 마지막 원소를 null이 나닌 첫 노드의 주소를 가리키게하면 원형 연결 리스트 자료구조가 됩니다. 이 방법은 이중 연결 리스트에도 마찬가지로 적용됩니다.
