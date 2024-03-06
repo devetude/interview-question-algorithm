@@ -13,7 +13,7 @@ fun main() {
     println(arr.joinToString())
 }
 
-fun mergeSort(start: Int, end: Int) {
+private fun mergeSort(start: Int, end: Int) {
     if (start == end - 1) return
 
     val mid = start + end shr 1
@@ -22,7 +22,7 @@ fun mergeSort(start: Int, end: Int) {
     merge(start, end)
 }
 
-fun merge(start: Int, end: Int) {
+private fun merge(start: Int, end: Int) {
     val mid = start + end shr 1
     var left = start
     var right = mid

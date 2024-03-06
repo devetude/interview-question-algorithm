@@ -21,7 +21,7 @@ fun main() {
     println(arr.joinToString())
 }
 
-fun Int.digitOf(n: Int): Int {
+private fun Int.digitOf(n: Int): Int {
     require(1 <= n)
     val div = generateSequence(seed = 1) { it * 10 }.take(n).last()
     return this / div % 10

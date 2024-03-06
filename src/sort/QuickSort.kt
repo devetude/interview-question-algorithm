@@ -3,7 +3,9 @@ package sort
 private val arr: MutableList<Int> = (-5..5).toMutableList().apply { shuffle() }
 
 /**
- * Time Complexity: O(nlogn)
+ * Time Complexity
+ * - Best: O(nlogn)
+ * - Worst: O(n^2)
  * Space Complexity: O(n)
  */
 fun main() {
@@ -12,7 +14,7 @@ fun main() {
     println(arr.joinToString())
 }
 
-fun quickSort(start: Int, end: Int) {
+private fun quickSort(start: Int, end: Int) {
     if (end - 1 <= start) return
 
     val pivot = arr[start]
