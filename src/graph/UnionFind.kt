@@ -38,7 +38,11 @@ private fun union(u: Int, v: Int) {
     val parentOfV = find(v)
     if (parentOfU == parentOfV) return
 
-    parentOf[v] = parentOfU
+    if (parentOfU < parentOfV) {
+        parentOf[parentOfV] = parentOfU
+    } else {
+        parentOf[parentOfU] = parentOfV
+    }
 }
 
 private fun find(u: Int): Int =

@@ -44,7 +44,11 @@ private fun isCycleCreatedBy(u: Int, v: Int): Boolean {
     val parentOfV = find(v)
     if (parentOfU == parentOfV) return true
 
-    parentOf[v] = parentOfU
+    if (parentOfU < parentOfV) {
+        parentOf[parentOfV] = parentOfU
+    } else {
+        parentOf[parentOfU] = parentOfV
+    }
 
     return false
 }
