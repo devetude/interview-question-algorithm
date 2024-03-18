@@ -32,7 +32,7 @@ fun main() {
     println("selectedEdges=${selectedEdges.joinToString()}")
 
     val minWeightSum = selectedEdges.sumOf { it.third }
-    println(minWeightSum)
+    println("minWeightSum=$minWeightSum")
 }
 
 private fun MutableList<Triple<Int, Int, Int>>.sortByWeight() = sortWith(
