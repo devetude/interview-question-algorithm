@@ -2,6 +2,10 @@ package graph
 
 private const val INF: Int = Int.MAX_VALUE shr 1
 
+/**
+ * Time Complexity: O(v*e) (v = vertex, e = edge)
+ * Space Complexity: O(e) (e = edge)
+ */
 fun main() {
     val edges = arrayOf(
         Triple(first = 0, second = 1, third = 4),
